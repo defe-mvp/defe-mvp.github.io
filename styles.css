@@ -1,3 +1,48 @@
-h1{
-  color: blue;  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cabecera {
+  background: linear-gradient(to bottom, #a10101, #720f02); /* Degradado */
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente (opcional) */
+}
+
+body{
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to bottom, #720202, rgb(172, 0, 0));
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 6rem;
+  margin: 0; /* Elimina márgenes por defecto */
+  padding: 0; /* Elimina padding por defecto */
+}
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+.menu li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive: Menú en móviles */
+@media (max-width: 600px) {
+  .menu {
+      flex-direction: column;
+      gap: 0.5rem;
+  }
 }
