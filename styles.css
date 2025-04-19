@@ -6,10 +6,12 @@
   font-family: Trebuchet MS;
 }
 h1, h2{
-  color:white;
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
+}
+h1{
+  color:rgb(243, 182, 51);
 }
 .cabecera {
   background-color: #181818;
@@ -51,7 +53,7 @@ body{
 .menu li a:hover {
   background: rgba(255, 255, 255, 0.2);
 }
-article, section {
+article {
   width: 80%; /* Ancho del contenedor (ajústalo) */
   max-width: 1000px; /* Límite máximo para no estirar en pantallas grandes */
   margin: 0 auto; /* Centrado horizontal */
@@ -77,10 +79,7 @@ ul{
   margin-left: 30px;
 
 }
-footer{
-  padding-bottom: 20px;
-  background-color: blue;
-}
+
 .logo-co-bit{
   display: flex;
   justify-content: center;
@@ -90,6 +89,36 @@ footer{
   padding: 10px;
   margin-bottom: 10px;
   box-shadow: 0px 1px 5px black;
+}
+.descarga-1{
+  color: rgb(255, 58, 58);
+}
+.descarga-1 p{
+  color: rgb(255, 58, 58);
+  margin-top:10px;
+  margin-left: 20px;
+}
+.descarga-1 p:hover{
+  color: rgb(255, 101, 101);
+  margin-top:10px;
+  margin-left: 20px;
+}
+.notas{
+  margin: 10px;
+}
+ul{
+  margin-bottom:15px;
+}
+h4{
+  color:rgb(243, 182, 51);
+}
+.img-1{
+  display: block;
+  text-align: center;
+}
+.img-1 img{
+  margin: 10px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
 /* Responsive: Menú en móviles */
 @media (max-width: 600px) {

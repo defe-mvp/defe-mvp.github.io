@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header class="cabecera">
+        <header class="cabecera"> 
             <nav>
                 <ul class="menu">
                     <li><a href="index.html">Sobre Mí</a></li>
@@ -16,21 +16,22 @@
         </header>
         <main>
             <h1>Proyectos</h1>
-            <section> 
-            <h2>Juegos</h2>
+            <article> <!-- INDICE: JUEGOS -->
+            <h2>Juegos</h2> 
             <ul>
                 <li>Proyecto CO-BIT</li>
             </ul>
-            </section>
+            </article>
             <br>
-            <section>
-                <h2>Mods</h2>
+            <article> <!-- INDICE: MODS -->
+                <h2>Mods</h2> 
                 <ul>
                     <li>Pokemon Barrio Obrero (Beta 1.0)</li>
                 </ul>
-            </section>
+            </article>
             <br>
-            <section class="proyecto-co-bit">
+            <section class="JUEGOS"> <!-- JUEGOS -->
+                <article class="proyecto-co-bit"> <!-- PROYECTO CO-BIT -->
                 <h3>Proyecto Co-Bit</h3>
                 <div class="logo-co-bit" >
                 <img src="images/logo_co-bit.png" width="100px" height="100px" >
@@ -48,13 +49,38 @@
                     uno se responda una pregunta sobre el Covid. El
                     nivel final es un examen sobre todas las 
                     preguntas previamentes realizadas.
-
                 </p>
+                <a class="descarga-1" href="https://defemvp.itch.io/proyecto-co-bit">
+                   <p>Descarga Aquí</p> 
+                </a>
+                <div class="notas"> <!-- NOTAS DEL DESARROLLADOR -->
+                <h4>NOTAS DEL DESARROLLADOR</h4>
+                <ul>
+                    <li>Hecha en Unity</li>
+                    <li>Bajos Recursos (se puede jugar en una papa)</li>
+                    <li>Peso del juego - 126 MB</li>
+                    <li>Corre estable (pero esta mal optimizado)</li>
+                    <li>Muchos bugs...</li>
+                </ul>
+                </div> <!-- IMAGENES -->
+                <div class="notas">
+                <h4>IMAGENES</h4>
+                <div class="img-1">
+                    <img src="images/cobit-1.png" alt="cobit-1" width="380px">
+                    <img src="images/cobit-2.png" alt="cobit-1" width="380px">
+                    <img src="images/cobit-3.png" alt="cobit-1" width="380px">
+                </div>
+                <div>
+                </article>
+            </section>
+
+            <section class="MODS"> <!-- MODS -->
+                <article>   
+                    <h3>Pokémon Barrio Obrero (Beta 1.0)</h3>
+                </article>
             </section>
         </main>
         <br>
-        <footer>
-            <p>hola</p>
-        </footer>
+        
     </body>
 </html>
