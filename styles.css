@@ -3,7 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+h1, h2{
+  color:white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
 .cabecera {
   background: linear-gradient(to bottom, #a10101, #720f02); /* Degradado */
   padding: 1rem 2rem;
@@ -38,6 +43,29 @@ body{
 .menu li a:hover {
   background: rgba(255, 255, 255, 0.2);
 }
+article {
+  width: 80%; /* Ancho del contenedor (ajústalo) */
+  max-width: 1000px; /* Límite máximo para no estirar en pantallas grandes */
+  margin: 0 auto; /* Centrado horizontal */
+  padding: 20px;
+  background: #610101; /* Fondo opcional */
+  border-radius: 8px; /* Bordes redondeados opcionales */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Sombra opcional */
+}
+p{
+  color:white;
+  text-indent: 2em;
+}
+.redes{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.redes img{
+  margin: 10px;
+}
+
+
 
 /* Responsive: Menú en móviles */
 @media (max-width: 600px) {
