@@ -63,7 +63,7 @@ body{
 }
 article {
   width: 80%; /* Ancho del contenedor (ajústalo) */
-  max-width: 1000px; /* Límite máximo para no estirar en pantallas grandes */
+  max-width: 700px; /* Límite máximo para no estirar en pantallas grandes */
   min-width: 300px;
   margin: 0 auto; /* Centrado horizontal */
   margin-top: 20px;
