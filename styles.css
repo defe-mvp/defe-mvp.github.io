@@ -130,6 +130,7 @@ span{
 li{
   margin: 5px;
 }
+
 /* Responsive: Menú en móviles */
 @media (max-width: 600px) {
   .menu {
