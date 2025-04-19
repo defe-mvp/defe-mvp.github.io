@@ -120,6 +120,16 @@ h4{
   margin: 10px;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
+.titulo-articulo{
+  color:rgb(255, 73, 73);
+}
+span{
+  padding: 2px;
+  background-color: rgb(255, 73, 73);
+}
+li{
+  margin: 5px;
+}
 /* Responsive: Menú en móviles */
 @media (max-width: 600px) {
   .menu {
